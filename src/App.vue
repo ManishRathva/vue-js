@@ -3,8 +3,8 @@
   <!-- <About/> -->
   <!-- <Parent/> -->
   <!-- <Form/> -->
-  <Home/>
-  <Test/>
+  <Home />
+  <!-- <Test/> -->
 </template>
 
 <script>
@@ -12,24 +12,24 @@
 // import About from './components/About.vue'
 // import Parent from './components/Parent.vue'
 // import Form from './components/Form.vue'
-import Test from './components/Test.vue'
-import Home from './components/Home.vue'
+// import Test from "./components/Test.vue";
+import Home from "./components/Home.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // HelloWorld,
     // About,
     // Parent,
     // Form,
     Home,
-    Test
-  } 
-}
+    // Test,
+  },
+};
 </script>
 
 <style scoped>
-  *{
-    text-align: center  ;
-  }
+* {
+  text-align: center;
+}
 </style>
